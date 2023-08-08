@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Todo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="list-main">
+      <h1>Todo List</h1>
+      <div class="fields">
+        <input type="text" id="task-name" placeholder="Task Name"/>
+        <button onclick="addTask()">Add</button>
+      </div>
+      <div id="task-status">
+        <span id="total-task">Total Task: 0</span>
+      </div>
+      <ul id="task-list">
+      </ul>
+    </div>
+  </div>
+  <script src="todo.js"></script>
+</body>
+
+</html>
